@@ -4,11 +4,16 @@
 #
 #    pip-compile requirements.in
 #
+lxml==5.1.0
+    # via -r requirements.in
 numpy==1.26.4
     # via
     #   -r requirements.in
     #   pandas
+    #   pyarrow
 pandas==2.2.0
+    # via -r requirements.in
+pyarrow==15.0.0
     # via -r requirements.in
 python-dateutil==2.8.2
     # via pandas

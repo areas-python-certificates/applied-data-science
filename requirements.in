@@ -1,2 +1,4 @@
+lxml
 numpy
 pandas
+pyarrow
